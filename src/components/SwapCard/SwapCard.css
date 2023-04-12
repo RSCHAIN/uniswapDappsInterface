@@ -1,0 +1,99 @@
+.cardContainer {
+    width: 60%;
+    margin: 10rem auto;
+}
+
+.cardContainer .card {
+    width: 70%;
+    border: solid .1rem lightgray;
+    border-radius: .6rem;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.cardContainer .card .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    color: rgb(28, 45, 98);
+}
+
+.cardContainer .card .cardHeader h4, span {
+    font-size: 1.5rem;
+}
+
+
+.cardContainer .card .cardBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContainer .card .cardBody .bodyTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.cardContainer .card .cardBody .bodyTop .linkButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(28, 45, 98);
+    text-decoration: none;
+}
+.cardContainer .card .cardBody .bodyTop .linkButton img {
+    width: 3rem;
+}
+
+.cardContainer .card .cardBody .bodyTop input {
+    padding: 1.5rem;
+    width: 28rem;
+    border: .1rem solid lightblue;
+    border-radius: 1rem;
+}
+.cardContainer .card .cardBody .bodyTop input::placeholder {
+    font-size: 2rem;
+}
+
+.cardContainer .card .cardBody .bodyBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5rem;
+}
+/* padding-top padding-right padding-bottom padding-left */
+
+.cardContainer .card .cardBody .bodyBottom .linkButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border: solid .1rem lightblue;
+    background-color: rgba(1, 1, 43, 0.741);
+    padding: .6rem 1.5rem .6rem 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.cardContainer .card .cardBody .bodyBottom input {
+    padding: 1.5rem;
+    width: 28rem;
+    border-radius: 1rem;
+    border: .1rem solid lightblue;
+}
+.cardContainer .card .cardBody .bodyBottom input::placeholder {
+    font-size: 2rem;
+}
+
+
+.swapButton {
+    border: .1rem solid lightblue;
+    padding: .5rem 3rem .5rem 3rem;
+    font-size: 1rem;
+    border-radius: .4rem;
+    margin-top: .5rem;
+    color: rgba(1, 1, 43, 0.741);;
+    cursor: pointer;
+}

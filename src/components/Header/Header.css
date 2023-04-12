@@ -1,0 +1,57 @@
+.headerContainer {
+    width: 75%;
+    margin: auto;
+}
+
+.headerContainer .headerItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerContainer .headerItems .headerItems-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerContainer .headerItems .headerItems-left a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.headerContainer .headerItems .headerItems-left a>img {
+    width: 2.5rem;
+}
+
+
+
+.headerContainer .headerItems .headerItems-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerContainer .headerItems .headerItems-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.headerContainer .headerItems .headerItems-right a>img {
+    width: 3rem;
+}
+
+.connectWalletButton>button {
+    border: .1rem solid lightblue;
+    padding: .5rem 3rem .5rem 3rem;
+    font-size: 1rem;
+    border-radius: .4rem;
+    margin-top: .5rem;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(1, 1, 43, 0.741);
+}

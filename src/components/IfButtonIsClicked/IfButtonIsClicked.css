@@ -1,0 +1,111 @@
+
+.ifButtonIsClickedContainer {
+    border: .1rem solid lightblue;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: .6rem;
+    background-color: #fff;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.ifButtonIsClickedContainer .ifButtonIsClickedCard .ifButtonIsClickedCard-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ifButtonIsClickedCard-body .ifButtonIsClickedCard-body-left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ifButtonIsClickedCard-body-left .firstParty h2 {
+    margin-bottom: 1rem;
+    color: rgb(28, 45, 98);;
+    font-size: 1.3rem;
+}
+
+
+.ifButtonIsClickedCard-body .ifButtonIsClickedCard-body-left .twoBittons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.ifButtonIsClickedCard-body .ifButtonIsClickedCard-body-left .twoBittons a {
+    padding: 1rem;
+    border: .1rem solid lightblue;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: rgb(28, 45, 98);
+}
+
+.ifButtonIsClickedCard-body .ifButtonIsClickedCard-body-left .twoBittons a>img {
+    width: 3rem;
+}
+
+.firstPartyItems .cardAfterButton {
+    padding: 1rem;
+    border: .1rem solid lightblue;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .4rem;
+    margin-bottom: .6rem;
+}
+
+.firstPartyItems .cardAfterButton .cardAfterButton-left {
+    display:  flex;
+    flex-direction: column;
+}
+
+.firstPartyItems .fourCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.firstPartyItems .fourCards .rows {
+    padding: 1rem;
+    border: .1rem solid lightblue;
+    display:  flex;
+    flex-direction: column;
+    border-radius: .4rem;
+}
+
+
+
+.ifButtonIsClickedCard-body .ifButtonIsClickedCard-body-left .secondParty .secondPartyTop .secondPartyTop-linkButton {
+    display: flex;
+}
+
+.ifButtonIsClickedCard-body .ifButtonIsClickedCard-body-left .secondParty .secondPartyTop a {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    color: rgb(28, 45, 98);
+    text-decoration: none;
+}
+
+.ifButtonIsClickedCard-body .ifButtonIsClickedCard-body-left .secondParty .secondPartyTop a span>img {
+    width: 3rem;
+}
+
+.ifButtonIsClickedCard-body .ifButtonIsClickedCard-body-left .secondParty .secondPartyBottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+
+.ifButtonIsClickedCard-body .ifButtonIsClickedCard-body-left .secondParty .secondPartyBottom a {
+    color: rgb(28, 45, 98);
+    text-decoration: none;
+}
